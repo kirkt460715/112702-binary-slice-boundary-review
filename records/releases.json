@@ -1,0 +1,16 @@
+[
+  {
+    "id": "claim-b",
+    "version": "r2",
+    "variant": "full",
+    "normal_layouts": [
+      "new"
+    ],
+    "activated": false
+  },
+  {
+    "id": "deployed",
+    "version": "r1",
+    "variant": "legacy"
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "id": "check-1",
+    "node": "C1",
+    "bounds": "whole-frame",
+    "offset_unit": "bytes",
+    "version": "r1"
+  },
+  {
+    "id": "read-1",
+    "node": "R1",
+    "reads": "part",
+    "uses_check": "C1",
+    "length_unit": "records",
+    "version": "r1"
+  },
+  {
+    "id": "check-2",
+    "node": "C2",
+    "bounds": "part",
+    "offset_unit": "bytes",
+    "version": "r2",
+    "present_in": [
+      "full"
+    ]
+  },
+  {
+    "id": "read-v2",
+    "node": "R1",
+    "reads": "part",
+    "uses_check": "C2",
+    "length_unit": "bytes",
+    "version": "r2",
+    "proof": "incomplete",
+    "path_entries": [
+      "legacy",
+      "full"
+    ]
+  }
+]

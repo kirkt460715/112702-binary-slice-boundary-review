@@ -1,0 +1,17 @@
+[
+  {
+    "id": "layout-old",
+    "kind": "legacy",
+    "buffers": {
+      "frame": "bytes",
+      "part": "bytes"
+    },
+    "public_max_bytes": 128
+  },
+  {
+    "id": "layout-new",
+    "kind": "new",
+    "unit": "record",
+    "overall_buffer": "frame"
+  }
+]
